@@ -1,5 +1,5 @@
 import { Dispatch } from "react";
-import { IUserActions, UserActionTypes } from "../../types/todos";
+import { IUserActions, UserActionTypes } from "../../types/users";
 import axios from "axios";
 
 export const fetchUsers = () => {
